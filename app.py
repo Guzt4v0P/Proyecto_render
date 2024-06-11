@@ -19,6 +19,15 @@ if line_button:
     st.plotly_chart(fig, use_container_width=True)
 
 
+dispersion_button = st.button('Gráfica de dispersión de precio-odómetro')
+if dispersion_button:
+    st.write('Gráfico de dispersión Precio vs. Odómetro')
+    fig = px.scatter(df, x="odometer", y="price", 
+                     title="Precio vs. Odómetro",
+                     labels={'odometer': 'Kilometraje (millas)', 'price': 'Precio (USD)'})
+    st.plotly_chart(fig, use_container_width=True)
+
+
 
 
 
