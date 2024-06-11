@@ -2,9 +2,9 @@
 
 https://proyecto-render-3qxb.onrender.com
 
-# Este debe incluir una breve descripción del proyecto, donde se explique para qué sirve la aplicación web y qué tipo de funcionalidad proporciona.
 
-# Objetivo del Proyecto:
+
+## Objetivo del Proyecto:
 # El objetivo de este proyecto es analizar un conjunto de datos de anuncios de vehículos usados. La meta es obtener información valiosa sobre diferentes aspectos de los vehículos en venta, como el precio, la condición, el tipo de transmisión, el odómetro y otros factores. A través de esta análisis, se pretende identificar patrones y tendencias que puedan ser útiles para compradores y vendedores de vehículos, así como para investigadores y profesionales del mercado automotriz.
 
 # Descripción del Proyecto:
