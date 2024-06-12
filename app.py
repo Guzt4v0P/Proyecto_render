@@ -3,8 +3,11 @@ import plotly.express as px
 import streamlit as st
 
 
+st.title('Análisis de Datos de Vehículos Usados')
+
 df = pd.read_csv('vehicles_us.csv')
 
+st.header('Exploración y Visualización de Datos')
 bar_button = st.button('Gáfica de barras')
 if bar_button:
     st.write('Creación de un gráfico de barras de la condición de los vehículos')
